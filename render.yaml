@@ -1,6 +1,7 @@
 services:
   - type: web
-    name: school-system
+    name: school-system-free  # เปลี่ยนชื่อเพื่อหลีกเลี่ยงความขัดแย้ง
+    plan: free  # ระบุแผนฟรีชัดเจน
     runtime: node
     buildCommand: npm install && npm run build
     startCommand: npm start
